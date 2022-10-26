@@ -1,0 +1,2 @@
+# gofunc
+golang common function 

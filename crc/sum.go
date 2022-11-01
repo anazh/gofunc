@@ -1,10 +1,10 @@
 package crc
 
-//add sum value
-func SumValue(data []byte) byte {
-	v := 0
+//
+func CheckSumValue(data []byte) byte {
+	var v byte
 	for _, d := range data {
-		v = int(d) + v
+		v = d + v
 	}
-	return byte(int8(v))
+	return ^(v - 1)
 }

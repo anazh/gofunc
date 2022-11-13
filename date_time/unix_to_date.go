@@ -31,6 +31,7 @@ func TimeDateMinSec(timestamp int64) string {
 	return tm.Format("2006-01-02 15:04:05")
 }
 
+// trans time unix to time string
 func TimeStringToUnix(timeString string) int64 {
 	t, _ := time.ParseInLocation("2006-01-02 15:04:05", timeString, time.Local)
 	out := t.Unix()

@@ -6,6 +6,7 @@ require (
 	github.com/gogf/gf/v2 v2.2.1
 	github.com/golang-jwt/jwt/v4 v4.4.2
 	github.com/silenceper/wechat/v2 v2.1.4
+	github.com/yumaojun03/dmidecode v0.1.4
 )
 
 require (
@@ -14,6 +15,7 @@ require (
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
 	github.com/clbanning/mxj/v2 v2.5.5 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
+	github.com/digitalocean/go-smbios v0.0.0-20180907143718-390a4f403a8e // indirect
 	github.com/fatih/color v1.13.0 // indirect
 	github.com/fatih/structs v1.1.0 // indirect
 	github.com/fsnotify/fsnotify v1.5.4 // indirect

@@ -3,6 +3,7 @@ module github.com/anazh/gofunc
 go 1.19
 
 require (
+	github.com/eclipse/paho.mqtt.golang v1.4.2
 	github.com/gogf/gf/v2 v2.2.1
 	github.com/golang-jwt/jwt/v4 v4.4.2
 	github.com/silenceper/wechat/v2 v2.1.4
@@ -39,6 +40,7 @@ require (
 	go.opentelemetry.io/otel/trace v1.7.0 // indirect
 	golang.org/x/crypto v0.0.0-20220622213112-05595931fe9d // indirect
 	golang.org/x/net v0.0.0-20211112202133-69e39bad7dc2 // indirect
+	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
 	golang.org/x/sys v0.0.0-20220715151400-c0bba94af5f8 // indirect
 	golang.org/x/text v0.3.8-0.20211105212822-18b340fc7af2 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect

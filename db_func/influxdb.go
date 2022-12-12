@@ -1,4 +1,4 @@
-package common_db
+package db_func
 
 import (
 	"context"

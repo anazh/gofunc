@@ -6,6 +6,7 @@ require (
 	github.com/eclipse/paho.mqtt.golang v1.4.2
 	github.com/gogf/gf/v2 v2.2.1
 	github.com/golang-jwt/jwt/v4 v4.4.2
+	github.com/influxdata/influxdb1-client v0.0.0-20220302092344-a9ab5670611c
 	github.com/shirou/gopsutil v2.21.11+incompatible
 	github.com/silenceper/wechat/v2 v2.1.4
 	github.com/yumaojun03/dmidecode v0.1.4
